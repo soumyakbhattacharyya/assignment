@@ -38,7 +38,7 @@ class AlgoTest {
 
 		// signifies the maximum acceptable range given a segment, beyond which if a
 		// vehicle travels, it essentially counts for a deviation
-		double range = 10; // kms
+		double range = 5; // kms
 
 		Segment firstSegment = new Segment(UUID.randomUUID().toString(), l1, l2, range);
 		Segment secondSegment = new Segment(UUID.randomUUID().toString(), l3, l4, range);
